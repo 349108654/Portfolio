@@ -46,7 +46,7 @@ const ShowcaseSection = () => {
             <div className="first-project-wrapper" ref={project1Ref}>
               <a href='https://github.com/349108654/Wattendance-frontend'>
                 <div className="image-wrapper">
-                  <img src="/images/Wattendence-cover.png" alt="Ryde App Interface" />
+                  <img src="./images/Wattendence-cover.png" alt="Ryde App Interface" />
                 </div>
                 <div className="text-content">
                     <h2>
@@ -64,7 +64,7 @@ const ShowcaseSection = () => {
                 <a href='https://github.com/349108654/Le-Petit-Mario'>
                   <div className="image-wrapper bg-[#FFEFDB]">
                     <img
-                      src="/images/project2.png"
+                      src="./images/project2.png"
                       alt="Library Management Platform"
                     />
                   </div>
@@ -77,7 +77,7 @@ const ShowcaseSection = () => {
 
               {/* <div className="project" ref={project3Ref}>
                 <div className="image-wrapper bg-[#FFE7EB]">
-                  <img src="/images/project3.png" alt="YC Directory App" />
+                  <img src="./images/project3.png" alt="YC Directory App" />
                 </div>
                 <h2>Project 2</h2>
               </div> */}
