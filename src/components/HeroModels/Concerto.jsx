@@ -7,7 +7,7 @@ Source: https://sketchfab.com/3d-models/concerto-c8f9ff8fd8fd404b8432ba0982c4003
 Title: Concerto
 */
 
-import React from 'react'
+// import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Concerto(props) {
