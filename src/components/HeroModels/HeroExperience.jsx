@@ -5,6 +5,9 @@ import { useMediaQuery } from 'react-responsive';
 import { Room } from './room';
 import HeroLights from './HeroLights';
 import Particles from './particles';
+import { CloudStation } from './CloudStation';
+import { MagicalFind } from './MagicalFind';
+import { Concerto } from './Concerto';
 
 const HeroExperience = () => {
     const isTablet = useMediaQuery({ query: '(max-width: 1024px)'});
@@ -25,14 +28,15 @@ const HeroExperience = () => {
 
         <HeroLights />
 
-        <Particles count={100} />
+        {/* <Particles count={100} /> */}
 
         <group
           scale={isMobile ? 0.7 : 1}
-          position={[0, -3.5, 0]}
-          rotation={[0, -Math.PI / 4, 0]}
+          position={[-2, -3.5, 0]}
+          rotation={[0, -3*Math.PI/2, 0]}
         >
-          <Room />
+          <Concerto />
+          {/* REMEMBER TO ADD CREDITS! */}
         </group>
     </Canvas>
   )

@@ -2,6 +2,8 @@ import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
 import { Computer } from "./Models/Computer";
+import { Cat_dispenser } from "./Models/Cat_dispenser";
+import { Halloween } from "./Models/Halloween";
 
 const ContactExperience = () => {
   return (
@@ -26,7 +28,7 @@ const ContactExperience = () => {
       <group scale={[1, 1, 1]}>
         <mesh
           receiveShadow
-          position={[0, -1.5, 0]}
+          position={[0, -2, 0]}
           rotation={[-Math.PI / 2, 0, 0]}
         >
           <planeGeometry args={[30, 30]} />
@@ -34,8 +36,10 @@ const ContactExperience = () => {
         </mesh>
       </group>
 
-      <group scale={0.03} position={[0, -1.49, -2]} castShadow>
-        <Computer />
+      <group scale={0.5} position={[0, 1, 0]} rotation={[-Math.PI /10, 0, 0]} castShadow>
+        {/* <Computer /> */}
+        {/* <Cat_dispenser /> */}
+        <Halloween />
       </group>
     </Canvas>
   );

@@ -1,6 +1,6 @@
 const navLinks = [
   {
-    name: "Work",
+    name: "Projects",
     link: "#work",
   },
   {
@@ -10,10 +10,6 @@ const navLinks = [
   {
     name: "Skills",
     link: "#skills",
-  },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
   },
 ];
 
@@ -114,31 +110,31 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "React",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Node.js",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Three.js",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Git",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -147,39 +143,45 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review: "",
+    imgPath: "",
+    logoPath: "/images/nrc-logo-modified.png",
+    title: "Co-op Student: Full Stack AI Developer",
+    date: "January 2025 - April 2025",
+    company: "National Research Council Canada",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed RESTful APIs using ASP.NET MVC Core and Entity Framework in C#",
+      "Trained and fine-tuned a machine learning NLP model using PyTorch, Scikit-learn, Hugging Face, and NumPy to assess semantic similarity, optimizing model accuracy to 98.8%.",
+      "Built 5+ dynamic frontend modules using React, TypeScript, and Next.js",
+      // "Designed and optimized a relational database in Azure SQL, writing SQL scripts and stored procedures to improve data accessibility and streamline workflow efficiency.",
+      // "Performed data preprocessing and feature engineering using Pandas and SciPy, applying statistical analysis and AER (Alignment Error Rate) calculations to enhance predictive accuracy.",
+      "Implemented ML pipelines for data ingestion, model training, deployment using TensorFlow and Scikit-learn",
+      // "Designed microservices architecture, breaking down uniform applications to improve scalability, and deployed services using Docker",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review: "",
+    imgPath: "",
+    logoPath: "/images/interaptix-logo.png",
+    title: "Software QA/QC Engineer",
+    date: "May 2024 - August 2024",
+    company: "Interaptix Augmented Reality",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Implemented test scripts for end-to-end unit testing of the AptixAR portal using Cypress",
+      "Conducted comparative analysis of 3D-Gaussian splats using scan data and Python Pandas, performing data analysis and visualization",
+      "Enhanced test plans and cases for regression testing throughout the Software Development Life Cycle, increasing test coverage by 20%",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review: "",
+    imgPath: "",
+    logoPath: "/images/flashcoding-logo.png",
+    title: "Software Developer",
+    date: "December 2023 - April 2024",
+    company: "Flash Coding",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed Share Office Details page using React.js, Javascript, and Tailwind CSS to deliver a responsive and intuitive user experience",
+      "Integrated FedEx delivery functionalities by building RESTful APIs in Node.js, establishing routes to interact with the FedEx API and updating the PostgreSQL database",
     ],
   },
 ];

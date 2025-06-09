@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
+import TitleHeader from '../components/TitleHeader';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -36,37 +37,50 @@ const ShowcaseSection = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
-        <div className="showcaselayout">
-          <div className="first-project-wrapper" ref={project1Ref}>
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
-            <div className="text-content">
-              <h2>
-                Project title
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                Project Description
-              </p>
-            </div>
-          </div>
-
-          <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
-                />
-              </div>
-              <h2>Project 1</h2>
+        <TitleHeader
+          title="Projects Overview"
+          sub="Extra Tech Studies"
+        />
+        <div className="mt-16 relative">
+          <div className="showcaselayout">
+            <div className="first-project-wrapper" ref={project1Ref}>
+              <a href='https://github.com/349108654/Wattendance-frontend'>
+                <div className="image-wrapper">
+                  <img src="/images/Wattendence-cover.png" alt="Ryde App Interface" />
+                </div>
+                <div className="text-content">
+                    <h2>
+                      Wattendance
+                    </h2>
+                    <p className="text-white-50 md:text-xl">
+                      Full Stack Attendence Tracker Website incorporating a facial recognition feature
+                    </p>
+                </div>
+              </a>
             </div>
 
-            <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+            <div className="project-list-wrapper overflow-hidden">
+              <div className="project" ref={project2Ref}>
+                <a href='https://github.com/349108654/Le-Petit-Mario'>
+                  <div className="image-wrapper bg-[#FFEFDB]">
+                    <img
+                      src="/images/project2.png"
+                      alt="Library Management Platform"
+                    />
+                  </div>
+                  <h2>Le Petit Mario</h2>
+                  <p>
+                    OOP 2D Sprite-based Game - constructing auto aim shooting through Ray-casting algorithm along with object movement using Frame-by-Frame animation
+                  </p>
+                </a>
               </div>
-              <h2>Project 2</h2>
+
+              {/* <div className="project" ref={project3Ref}>
+                <div className="image-wrapper bg-[#FFE7EB]">
+                  <img src="/images/project3.png" alt="YC Directory App" />
+                </div>
+                <h2>Project 2</h2>
+              </div> */}
             </div>
           </div>
         </div>
