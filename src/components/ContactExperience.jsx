@@ -1,8 +1,8 @@
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
-import { Computer } from "./Models/Computer";
-import { Cat_dispenser } from "./Models/Cat_dispenser";
+// import { Computer } from "./Models/Computer";
+// import { Cat_dispenser } from "./Models/Cat_dispenser";
 import { Halloween } from "./Models/Halloween";
 
 const ContactExperience = () => {
