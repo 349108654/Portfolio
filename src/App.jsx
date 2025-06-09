@@ -1,5 +1,5 @@
 // import LogoSection from "./sections/LogoSection"
-import NavBar from "./components/NavBar"
+// import NavBar from "./components/NavBar"
 // import FeatureCards from "./sections/FeatureCards"
 // import Hero from "./sections/hero"
 // import ShowcaseSection from "./sections/ShowcaseSection"
@@ -11,7 +11,8 @@ import NavBar from "./components/NavBar"
 const App = () => {
     return(
         <>
-            <NavBar />
+        <p> TEST DEPLOYMENT OMO</p>
+            {/* <NavBar /> */}
             {/* <Hero />
             <ShowcaseSection /> */}
             {/* <LogoSection /> */}
