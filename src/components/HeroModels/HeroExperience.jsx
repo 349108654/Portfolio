@@ -2,11 +2,7 @@ import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import { useMediaQuery } from 'react-responsive';
-import { Room } from './room';
 import HeroLights from './HeroLights';
-import Particles from './particles';
-import { CloudStation } from './CloudStation';
-import { MagicalFind } from './MagicalFind';
 import { Concerto } from './Concerto';
 
 const HeroExperience = () => {
