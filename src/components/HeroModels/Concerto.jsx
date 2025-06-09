@@ -11,7 +11,7 @@ Title: Concerto
 import { useGLTF } from '@react-three/drei'
 
 export function Concerto(props) {
-  const { nodes, materials } = useGLTF('/models/concerto.glb')
+  const { nodes, materials } = useGLTF('./models/concerto.glb')
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={1.466}>
@@ -49,4 +49,4 @@ export function Concerto(props) {
   )
 }
 
-useGLTF.preload('/models/concerto.glb')
+useGLTF.preload('./models/concerto.glb')
