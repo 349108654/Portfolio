@@ -64,7 +64,7 @@ const ShowcaseSection = () => {
                 <a href='https://github.com/349108654/Le-Petit-Mario'>
                   <div className="image-wrapper bg-[#FFEFDB]">
                     <img
-                      src="./images/project2.png"
+                      src="./images/le-petit-mario-cover.png"
                       alt="Library Management Platform"
                     />
                   </div>
