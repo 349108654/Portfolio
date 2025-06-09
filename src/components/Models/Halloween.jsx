@@ -12,7 +12,7 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 
 export function Halloween(props) {
   const group = React.useRef()
-  const { nodes, materials, animations } = useGLTF('/models/halloween.glb')
+  const { nodes, materials, animations } = useGLTF('./models/halloween.glb')
   const { actions } = useAnimations(animations, group)
   return (
     <group ref={group} {...props} dispose={null}>
@@ -712,4 +712,4 @@ export function Halloween(props) {
   )
 }
 
-useGLTF.preload('/models/halloween.glb')
+useGLTF.preload('./models/halloween.glb')
