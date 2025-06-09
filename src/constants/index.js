@@ -14,14 +14,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "./images/ideas.svg" },
+  { text: "Concepts", imgPath: "./images/concepts.svg" },
+  { text: "Designs", imgPath: "./images/designs.svg" },
+  { text: "Code", imgPath: "./images/code.svg" },
+  { text: "Ideas", imgPath: "./images/ideas.svg" },
+  { text: "Concepts", imgPath: "./images/concepts.svg" },
+  { text: "Designs", imgPath: "./images/designs.svg" },
+  { text: "Code", imgPath: "./images/code.svg" },
 ];
 
 const counterItems = [
@@ -33,53 +33,53 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "./images/logos/company-logo-1.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "./images/logos/company-logo-2.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "./images/logos/company-logo-3.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "./images/logos/company-logo-4.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "./images/logos/company-logo-5.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "./images/logos/company-logo-6.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "./images/logos/company-logo-7.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "./images/logos/company-logo-8.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: "./images/logos/company-logo-9.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "./images/logos/company-logo-10.png",
   },
   {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "./images/logos/company-logo-11.png",
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: "./images/seo.png",
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: "./images/chat.png",
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "./images/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -88,23 +88,23 @@ const abilities = [
 const techStackImgs = [
   {
     name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    imgPath: "./images/logos/react.png",
   },
   {
     name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    imgPath: "./images/logos/python.svg",
   },
   {
     name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
+    imgPath: "./images/logos/node.png",
   },
   {
     name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    imgPath: "./images/logos/three.png",
   },
   {
     name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
+    imgPath: "./images/logos/git.svg",
   },
 ];
 
@@ -145,7 +145,7 @@ const expCards = [
   {
     review: "",
     imgPath: "",
-    logoPath: "/images/nrc-logo-modified.png",
+    logoPath: "./images/nrc-logo-modified.png",
     title: "Co-op Student: Full Stack AI Developer",
     date: "January 2025 - April 2025",
     company: "National Research Council Canada",
@@ -162,7 +162,7 @@ const expCards = [
   {
     review: "",
     imgPath: "",
-    logoPath: "/images/interaptix-logo.png",
+    logoPath: "./images/interaptix-logo.png",
     title: "Software QA/QC Engineer",
     date: "May 2024 - August 2024",
     company: "Interaptix Augmented Reality",
@@ -175,7 +175,7 @@ const expCards = [
   {
     review: "",
     imgPath: "",
-    logoPath: "/images/flashcoding-logo.png",
+    logoPath: "./images/flashcoding-logo.png",
     title: "Software Developer",
     date: "December 2023 - April 2024",
     company: "Flash Coding",
@@ -189,15 +189,15 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    imgPath: "./images/logo1.png",
   },
   {
     name: "logo2",
-    imgPath: "/images/logo2.png",
+    imgPath: "./images/logo2.png",
   },
   {
     name: "logo3",
-    imgPath: "/images/logo3.png",
+    imgPath: "./images/logo3.png",
   },
 ];
 
@@ -207,61 +207,61 @@ const testimonials = [
     mentions: "@estherhoward",
     review:
       "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+    imgPath: "./images/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
       "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+    imgPath: "./images/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+    imgPath: "./images/client2.png",
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
       "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+    imgPath: "./images/client5.png",
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
       "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+    imgPath: "./images/client4.png",
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
       "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+    imgPath: "./images/client6.png",
   },
 ];
 
 const socialImgs = [
   {
     name: "insta",
-    imgPath: "/images/insta.png",
+    imgPath: "./images/insta.png",
   },
   {
     name: "fb",
-    imgPath: "/images/fb.png",
+    imgPath: "./images/fb.png",
   },
   {
     name: "x",
-    imgPath: "/images/x.png",
+    imgPath: "./images/x.png",
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "./images/linkedin.png",
   },
 ];
 
