@@ -1,11 +1,11 @@
 const navLinks = [
   {
-    name: "Projects",
-    link: "#work",
-  },
-  {
     name: "Experience",
     link: "#experience",
+  },
+  {
+    name: "Projects",
+    link: "#work",
   },
   {
     name: "Skills",
@@ -87,25 +87,33 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "React",
     imgPath: "./images/logos/react.png",
   },
   {
-    name: "Python Developer",
+    name: "Python",
     imgPath: "./images/logos/python.svg",
   },
   {
-    name: "Backend Developer",
+    name: "Node.js",
     imgPath: "./images/logos/node.png",
   },
+  // {
+  //   name: "Three.js",
+  //   imgPath: "./images/logos/three.png",
+  // },
   {
-    name: "Interactive Developer",
-    imgPath: "./images/logos/three.png",
+    name: "C#.NET",
+    imgPath: "./images/logos/csharp-icon-small.png",
   },
   {
-    name: "Project Manager",
-    imgPath: "./images/logos/git.svg",
+    name: "SQL",
+    imgPath: "./images/logos/sql-small-icon.png",
   },
+  // {
+  //   name: "Git",
+  //   imgPath: "./images/logos/git.svg",
+  // },
 ];
 
 const techStackIcons = [
@@ -247,21 +255,27 @@ const testimonials = [
 ];
 
 const socialImgs = [
-  {
-    name: "insta",
-    imgPath: "./images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "./images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "./images/x.png",
-  },
+  // {
+  //   name: "insta",
+  //   imgPath: "./images/insta.png",
+  // },
+  // {
+  //   name: "fb",
+  //   imgPath: "./images/fb.png",
+  // },
+  // {
+  //   name: "x",
+  //   imgPath: "./images/x.png",
+  // },
   {
     name: "linkedin",
     imgPath: "./images/linkedin.png",
+    url: "https://www.linkedin.com/in/ellie-liang-9397a92b2/"
+  },
+  {
+    name: "github",
+    imgPath: "./images/github1.png",
+    url: "https://github.com/349108654"
   },
 ];
 

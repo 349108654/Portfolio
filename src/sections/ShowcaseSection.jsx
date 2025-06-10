@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import TitleHeader from '../components/TitleHeader';
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -44,7 +45,7 @@ const ShowcaseSection = () => {
         <div className="mt-16 relative">
           <div className="showcaselayout">
             <div className="first-project-wrapper" ref={project1Ref}>
-              <a href='https://github.com/349108654/Wattendance-frontend'>
+              
                 <div className="image-wrapper">
                   <img src="./images/Wattendence-cover.png" alt="Ryde App Interface" />
                 </div>
@@ -55,13 +56,16 @@ const ShowcaseSection = () => {
                     <p className="text-white-50 md:text-xl">
                       Full Stack Attendence Tracker Website incorporating a facial recognition feature
                     </p>
+                    <a target="_blank" href='https://github.com/349108654/Wattendance-frontend'>
+                      <p className="flex text-white-50 md:text-xl hover:underline">
+                        See Source Code <ArrowTopRightOnSquareIcon className="w-4 h-4" />
+                      </p>
+                    </a>
                 </div>
-              </a>
             </div>
 
             <div className="project-list-wrapper overflow-hidden">
               <div className="project" ref={project2Ref}>
-                <a href='https://github.com/349108654/Le-Petit-Mario'>
                   <div className="image-wrapper bg-[#FFEFDB]">
                     <img
                       src="./images/le-petit-mario-cover.png"
@@ -72,7 +76,12 @@ const ShowcaseSection = () => {
                   <p>
                     OOP 2D Sprite-based Game - constructing auto aim shooting through Ray-casting algorithm along with object movement using Frame-by-Frame animation
                   </p>
-                </a>
+                  <br/>
+                  <a target="_blank" href='https://github.com/349108654/Le-Petit-Mario'>
+                    <p className="flex hover:underline">
+                      See Source Code <ArrowTopRightOnSquareIcon className="w-4 h-4" />
+                    </p>
+                  </a>
               </div>
 
               {/* <div className="project" ref={project3Ref}>
