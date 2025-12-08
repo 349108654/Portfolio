@@ -369,13 +369,13 @@ section {
   background: linear-gradient(
     0deg,
     rgba(69, 222, 196, 0) 0%,
-    #5545ce 25%,
-    #5c6ffd 37.51%,
-    #b5c9ff 62.83%,
-    #ffffff 80%,
-    #ff9999 90%,
+    #5545ce 18%,
+    #5c6ffd 28%,
+    #b5c9ff 40%,
+    #ffffff 75%,
+    #ffffff 90%,
     #ff4d4d 100%
-);
+  );
 }
 
 .gradient-edge:nth-of-type(1) {
