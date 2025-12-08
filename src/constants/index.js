@@ -153,9 +153,23 @@ const expCards = [
   {
     review: "",
     imgPath: "",
+    logoPath: "./images/cibc-logo-modified.png",
+    title: "Software/Applications Developer",
+    date: "September 2025 - December 2025",
+    company: "Canadian Imperial Bank of Commerce (CIBC)",
+    responsibilities: [
+      "Built scalable gRPC microservices in Java/Go using Clean Architecture, powering user-management workflows across 7+ internal services",
+      "Built CI/CD pipelines in Azure DevOps, integrating unit/integration tests, static analysis, secrets management, and environment promotion to increase deployment reliability and reduce manual ops.",
+      "Deployed services on Kubernetes/Openshift, configuring containerization, resource allocation, autoscaling, RBAC, and zero-downtime rollouts maintain service availability.",
+      "Integrated Istio Service Mesh (mTLS, JWT auth, traffic routing, load balancing) improving service-to-service security and routing efficiency.",
+    ],
+  },
+  {
+    review: "",
+    imgPath: "",
     logoPath: "./images/nrc-logo-modified.png",
     title: "Co-op Student: Full Stack AI Developer",
-    date: "January 2025 - April 2025",
+    date: "January 2025 - April 2025; September 2025 - December 2025 (Part Time)",
     company: "National Research Council Canada",
     responsibilities: [
       "Developed RESTful APIs using ASP.NET MVC Core and Entity Framework in C#",
